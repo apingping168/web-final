@@ -1,0 +1,112 @@
+*{
+   font-family: 'Lobster', cursive;
+}
+/* .navbar.nav{
+margin-right:200px;
+} */
+.container{
+  padding-top:80px;
+}
+.ncyu{
+  padding-top:80px;
+}
+section{
+  padding-top:120px;
+}
+section#s1{
+  background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+section#s2{
+ background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+.box1{  
+background: #92D4D3;
+  border-radius: 6px;
+  height: 100px;
+  width: 180px;
+  line-height: 95px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  transition: background .2s linear, border-radius .5s ease-in;
+}
+
+.box1:hover {
+  background: #748ED4;
+  border-radius: 50%;
+}
+
+.box2 {
+  background: #D2EBB0;
+  border-radius: 6px;
+  height: 100px;
+  width: 180px;
+  line-height: 95px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  transition: background .2s linear, border-radius .5s ease-in;
+}
+
+.box2:hover {
+  background:#8FEBB0;
+  border-radius: 50%;
+  transition: background 1s linear, border-radius 1s ease-in .5s;
+}
+.box3 {
+  background:#F6B3AC;
+  border-radius: 6px;
+  height: 100px;
+  width: 180px;
+  line-height: 95px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+}
+.box3:hover {
+  background: #F680AC;
+  border-radius: 50%;
+  transition: background 1s linear, border-radius 1s ease-in;
+}
+section#s3{
+ background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+  padding-bottom:80px;
+}
+section#s4{
+ background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+}
+section#s5{
+ background-image: linear-gradient(to top, #d5dee7 0%, #ffafbd 0%, #c9ffbf 100%);
+}
+.toTop-arrow {
+	width: 2.5rem;
+	height: 2.5rem;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 33%;
+	opacity: 0.6;
+	background: #000;
+	cursor: pointer;
+	position:fixed;
+	right: 1rem;
+	bottom: 1rem;
+	display: none;
+}
+.toTop-arrow::before, .toTop-arrow::after {
+	width: 18px;
+	height: 5px;
+	border-radius: 3px;
+	background: #f90;
+	position: absolute;
+	content: "";
+}
+.toTop-arrow::before {
+	transform: rotate(-45deg) translate(0, -50%);
+	left: 0.5rem;
+}
+.toTop-arrow::after {
+	transform: rotate(45deg) translate(0, -50%);
+	right: 0.5rem;
+}
+.toTop-arrow:focus {outline: none;}
